@@ -9,7 +9,7 @@ const Home = () => {
       <Button text="Criar cotação" onClick={() => history.push('cotacao')}/>
       <Button text="Acompanhar cotação em aberto"/>
       <Button text="Finalizar cotação"/>
-      <Button text="Resultados"/>
+      <Button text="TESTE"/>
     </div>
   );
 }
