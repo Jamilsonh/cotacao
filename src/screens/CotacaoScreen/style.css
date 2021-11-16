@@ -1,0 +1,10 @@
+.area {
+    width: 1800px;
+    height: 800px;
+    text-align: center;
+    background-color: #7a6a8a;
+    padding-top: 100px;
+}
+.btn {
+    align-items: center;
+}

@@ -2,13 +2,14 @@ import './../../App.css';
 import Button from '../../components/Button';
 import {useHistory} from 'react-router-dom'
 
+
 const Home = () => {
     const history = useHistory()
   return (
     <div className="App">
-      <Button text="Criar cotação" onClick={() => history.push('cotacao')}/>
-      <Button text="Acompanhar cotação em aberto"/>
-      <Button text="Finalizar cotação"/>
+      <Button text="CRIAR COTAÇÃO" onClick={() => history.push('cotacao')}/>
+      <Button text="ACOMPANHAR COTAÇÃO EM ABERTO" onClick={() => history.push('cotacaoabert')}/>
+      <Button text="FINALIZAR COTAÇÃO"/>
       <Button text="TESTE"/>
     </div>
   );

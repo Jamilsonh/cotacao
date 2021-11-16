@@ -9,6 +9,7 @@ import './App.css';
 import Home from "./screens/Home";
 import CotacaoScreen from "./screens/CotacaoScreen";
 import CotacaoFornecedorScreen from "./screens/CotacaoFornecedorScreen";
+import CotacaoAbert from "./screens/CotacaoAbert";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
     <Switch>
           <Route path="/cotacao">
             <CotacaoScreen />
+          </Route>
+          <Route path="/cotacaoabert">
+            <CotacaoAbert />
           </Route>
           <Route path="/cotacaoFornecedor/:id">
             <CotacaoFornecedorScreen />
