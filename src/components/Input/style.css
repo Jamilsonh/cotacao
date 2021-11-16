@@ -1,0 +1,7 @@
+.edit {
+    width: 250px;
+    height: 50px;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 10px;
+}

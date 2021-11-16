@@ -1,0 +1,10 @@
+.btton{
+    height: 50px;
+    width: 350px;
+    background-color: #ccc3d8;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 10px;
+}

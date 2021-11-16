@@ -1,10 +1,12 @@
 .button{
     height: 70px;
-    width: 500px;
-    background-color: #d8cde6;
-    font-size: 50px;
+    width: 400px;
+    background-color: #7081f0;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 2px;
 }
 .div{
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
 }
