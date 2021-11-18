@@ -2,10 +2,13 @@
     width: 1200px;
     height: 800px;
     text-align: center;
-    background-color: #7a6a8a;
+    background-color: #d6c802;
     padding-top: 100px;
     align-items: center;
-    margin-left: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 20px;
 }
 .btn {
     align-items: center;
@@ -17,3 +20,14 @@
     padding-top: 50px;
     display:inline-flex;
 }
+
+.topo2 {
+    width: 100%;
+    height: 80px;
+    background-color: #d6c802;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    box-shadow: 5px 0 5px black;
+    font-family: fantasy;
+  }

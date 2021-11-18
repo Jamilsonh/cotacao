@@ -23,7 +23,9 @@ const CotacaoScreen = () => {
             })
         }).then(r => console.log(r)).catch(e => console.log(e))
     }
-    return <div className='area'>
+    return <>
+        <div className='topo'> COTAÇÃO SUPERMERCADO BUENO</div>
+        <div className='area'>
         <div className='btn'>
         <Input label="Produto" value={produto.nome} onChange={(value) => {setProduto({...produto, nome: value})}}/>
         <Input label="Quantidade" value={produto.quantidade} onChange={(value) => {setProduto({...produto, quantidade: value})}}/>
@@ -42,6 +44,7 @@ const CotacaoScreen = () => {
         <BtnAdd text="Voltar" onClick={() => history.push('')}/>
         </div>
     </div>
+    </>
     
     
 }
